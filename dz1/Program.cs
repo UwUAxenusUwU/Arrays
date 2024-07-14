@@ -107,7 +107,35 @@ namespace dz1
                     Console.WriteLine($"Summ = {Sum}; Average = {Avg}; Min = {min}; Max = {max}");
                     Console.WriteLine();
                     break;
+                //case 4:
+                //    Console.WriteLine("Set size of array: ");
+                //    int size_arr = Convert.ToInt32(Console.ReadLine());
+                //    int[] rnd_arr = new int[size_arr];
+                //    for (int i = 0; i < size_arr; i++)
+                //    {
+                //        rnd_arr[i] = rnd.Next(0, 3);
+                //        Console.Write(rnd_arr[i] + "\t");
+                //    }
+                //    Console.WriteLine();
+                //    int number = 0;
+                //    for (int i = 0; i < size_arr; i++)
+                //    {
+                //        bool same = false;
+                //        int buf = rnd_arr[i];
+                //        Array.Sort(rnd_arr);
+                //        if ()
+                //        {
+                //            for (int j = 0; j < size_arr; j++)
+                //            {
+                //                if (rnd_arr[j] == buf) { same = true; number++; }
+                //            }
+                //        }
+                //        if (same) Console.WriteLine($"Same value = {buf}, and it meets for {number} times;");
+                //    }
+                //    break;
+                //пока не сообразил, как доработать, отложу на потом
             }
+
         }
     }
 }
